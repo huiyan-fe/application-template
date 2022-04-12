@@ -48,7 +48,8 @@
     "stylelint": "^13.13.1",
     "vite": "^2.8.0",
     "vite-plugin-full-reload": "^1.0.0",
-    "vite-plugin-html": "^2.1.2"
+    "vite-plugin-html": "^2.1.2",
+    "vite-plugin-imp": "^2.1.7"
   },
   "config": {
     "commitizen": {

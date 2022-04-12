@@ -7,6 +7,7 @@ import {defineConfig} from 'vite';
 import react from '@vitejs/plugin-react';
 import legacy from '@vitejs/plugin-legacy';
 import createHtmlPlugin from 'vite-plugin-html';
+import imp from 'vite-plugin-imp';
 
 // https://vitejs.dev/config/
 export default defineConfig(({mode}) => {
@@ -32,6 +33,12 @@ export default defineConfig(({mode}) => {
                     },
                 },
                 minify: true,
+            }),
+            imp({
+                libName: 'antd',
+                style(name) {
+                    return `antd/es/${name}/style/css.js`;
+                },
             }),
         ],
         css: {
