@@ -1,6 +1,6 @@
 # application-template
 
-node版本要求 >= 12
+node版本要求 >= 16
 
 
 执行
