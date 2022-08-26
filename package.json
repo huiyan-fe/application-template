@@ -13,11 +13,6 @@
     "*.{js,jsx,ts,tsx}": "eslint",
     "*.{css,less,scss,styl}": "stylelint"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.19.2",
@@ -31,9 +26,9 @@
     "@ecomfe/eslint-config": "^4.0.0",
     "@ecomfe/stylelint-config": "^1.1.2",
     "@rollup/plugin-image": "^2.1.1",
-    "@rollup/plugin-replace": "^3.0.0",
-    "@vitejs/plugin-legacy": "^1.7.1",
-    "@vitejs/plugin-react": "^1.0.7",
+    "@rollup/plugin-replace": "^4.0.0",
+    "@vitejs/plugin-legacy": "^2.0.1",
+    "@vitejs/plugin-react": "^2.0.1",
     "babel-eslint": "^10.0.0",
     "cz-conventional-changelog": "^2.1.0",
     "eslint": "^7.0.0",
@@ -46,10 +41,10 @@
     "rollup": "^2.56.3",
     "rollup-plugin-copy": "^3.4.0",
     "stylelint": "^13.13.1",
-    "vite": "^2.8.0",
+    "vite": "^3.0.9",
     "vite-plugin-full-reload": "^1.0.0",
-    "vite-plugin-html": "^2.1.2",
-    "vite-plugin-imp": "^2.1.7"
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-imp": "^2.3.0"
   },
   "config": {
     "commitizen": {
